@@ -5,6 +5,9 @@ window = Tk()
 window.geometry("500x600")
 window.title("Teacher Registration")
 
+label_name = Label(window,text="Teacher Registration",font=("Ariel",18))
+label_name.place (x=140, y =0)
+
 label_name = Label(window,text="Full Name: ",font=("Ariel",12))
 label_name.place (x=50, y =50)
 entryname = Entry(window,font=("Ariel",12))
