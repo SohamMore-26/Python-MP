@@ -36,6 +36,8 @@ label_dob.place (x=50, y =250)
 entry_dob = Entry(window,font=("Ariel",12))
 entry_dob.place (x=200, y =250)
 
+
+
 button = Button(window,text="Submit" ,font=("Ariel",15))
 button.place (x=200, y =350)
 
